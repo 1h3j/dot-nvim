@@ -63,7 +63,7 @@ return {
             local icon, _ = devicons.get_icon(filename) 
             return '  %=  '.. icon .. '  ' .. filename ..' ' end
         }},
-			lualine_x = {{function() return ' ' end}, require("recorder").recordingStatus, noice.api.status.command.get, 'diagnostics'},
+			lualine_x = {{function() return ' ' end}, noice.api.status.command.get, 'diagnostics'},
 			lualine_y = {'progress'},
 			lualine_z = {{'location', separator = {right = '      ', left = '', left_padding = 2}}} },
 		inactive_sections = {
