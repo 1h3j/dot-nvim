@@ -1,5 +1,8 @@
 vim.opt.number = true
-vim.opt.relativenumber = true
+vim.o.numberwidth = 5
+vim.opt.relativenumber = false
+
+vim.opt.cursorline = true
 
 vim.opt.clipboard = "unnamedplus"
 
