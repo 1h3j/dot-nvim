@@ -13,3 +13,25 @@ vim.api.nvim_set_hl(0, "CursorLineNR", { bg = "#606060", fg = "#000000" } )
 
 vim.api.nvim_set_hl(0, "StatusLine", {bg = '#000000'});
 vim.api.nvim_set_hl(0, "StatusLineNC", {bg = '#000000'});
+
+-- :skull: wtf
+vim.api.nvim_set_hl(0, "NotifyERRORBody", { bg = none });
+vim.api.nvim_set_hl(0, "NotifyWARNBody" , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyINFOBody" , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyDEBUGBody", { bg = none });
+vim.api.nvim_set_hl(0, "NotifyTRACEBody", { bg = none });
+vim.api.nvim_set_hl(0, "NotifyERRORBorder",  { bg = none });
+vim.api.nvim_set_hl(0, "NotifyWARNBorder" , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyINFOBorder" , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyDEBUGBorder", { bg = none }); 
+vim.api.nvim_set_hl(0, "NotifyTRACEBorder", { bg = none });
+vim.api.nvim_set_hl(0, "NotifyERRORIcon"  , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyWARNIcon"   , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyINFOIcon"   , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyDEBUGIcon"  , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyTRACEIcon"  , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyERRORTitle" , { bg = none }); 
+vim.api.nvim_set_hl(0, "NotifyWARNTitle"  , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyINFOTitle"  , { bg = none });
+vim.api.nvim_set_hl(0, "NotifyDEBUGTitle" , { bg = none }); 
+vim.api.nvim_set_hl(0, "NotifyTRACETitle" , { bg = none }); 
