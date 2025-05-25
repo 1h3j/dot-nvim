@@ -38,14 +38,15 @@ if not vim.g.neovide then
     pattern = "dashboard",
     once = true,
     callback = function()
+      drawHeader()
       vim.schedule(drawHeader)
     end
   })
 
   vim.api.nvim_create_autocmd("WinResized", {
     callback = function()
-      -- only redraw if we're still on the dashboard buffer
       if vim.bo.filetype == "dashboard" then
+        vim.cmd"normal! zz"
         vim.schedule(drawHeader)
       end
     end,

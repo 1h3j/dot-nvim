@@ -88,8 +88,6 @@ return {
 			vertical_center = true
 		}
 	}
-	vim.api.nvim_set_hl(0, "DashboardDesc", { bg = "None", fg = "#a0a0a0" } )
-	vim.api.nvim_set_hl(0, "DashboardFooter", { bg = "None", fg = "#404040" } )
 	end,
 
 	dependencies = { {'nvim-tree/nvim-web-devicons'}}

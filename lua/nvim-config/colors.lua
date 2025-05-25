@@ -14,6 +14,8 @@ vim.api.nvim_set_hl(0, "CursorLineNR", { bg = "#606060", fg = "#000000" } )
 vim.api.nvim_set_hl(0, "StatusLine", {bg = '#000000'});
 vim.api.nvim_set_hl(0, "StatusLineNC", {bg = '#000000'});
 
+vim.api.nvim_set_hl(0, "DashboardFooter", { bg = "None", fg = "#404040" } )
+
 -- :skull: wtf
 vim.api.nvim_set_hl(0, "NotifyERRORBody", { bg = none });
 vim.api.nvim_set_hl(0, "NotifyWARNBody" , { bg = none });
