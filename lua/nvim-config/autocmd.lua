@@ -1,8 +1,7 @@
 if not vim.g.neovide then
   local api = require("image")
 
-  local fontRatio = 19/7
-  local headerImageRatio = 16/9
+  local fontRatio = 19/7 local headerImageRatio = 16/9
   local textOffsetFromCenter = 13
   local imageOffsetFromCenter = 2
 
@@ -38,7 +37,6 @@ if not vim.g.neovide then
     pattern = "dashboard",
     once = true,
     callback = function()
-      drawHeader()
       vim.schedule(drawHeader)
     end
   })
