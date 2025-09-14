@@ -27,6 +27,13 @@ return {
           event = "neo_tree_buffer_leave",
           handler = function()
             vim.cmd("highlight! Cursor guibg=#5f87af blend=0")
+            vim.cmd"Neotree close"
+          end,
+        },
+        {
+          event = "file_opened",
+          handler = function()
+            vim.cmd"Neotree close"
           end,
         },
       },

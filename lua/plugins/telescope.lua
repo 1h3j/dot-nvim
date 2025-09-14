@@ -5,6 +5,6 @@ return {
     config = function()
       vim.keymap.set("n", "<Leader><Leader>", ":Telescope find_files<CR>")
       vim.keymap.set("n", "<C-Space><C-Space>", require("telescope.builtin").live_grep)
-    end
+    end,
 	}
 }

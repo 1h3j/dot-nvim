@@ -10,8 +10,13 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
+vim.o.linebreak = true
+vim.opt.breakindent = true
+vim.opt.breakindentopt = { "shift:4" }
+
+vim.opt.updatetime = 200
 
 vim.diagnostic.config({
-  virtual_lines = true
+  virtual_lines = false
 })
