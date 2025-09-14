@@ -1,10 +1,22 @@
-# ⚙️ dot-nvim
-![image](https://github.com/user-attachments/assets/411ced5b-49e1-4a44-981d-c9a154594fcf)
+<h1 align="center">⚙️ dot-nvim</h1>
+<p align="center">
+j3h1 / 1h3j's Personal Neovim Dotfiles
+</p>
 
-My personal nvim dotfiles :D
+<img width="1037" height="1004" alt="image" src="https://github.com/user-attachments/assets/3605e5e8-afaf-4a9a-b862-9cedf26d3ba4" />
 
-[kitty](https://github.com/kovidgoyal/kitty) is the recommended terminal emulator to use this with.
+## Installation
 
-## Other Screenshots
-![image](https://github.com/user-attachments/assets/21ab6ab0-b792-49b0-b463-21ff27a80b44)
-![image](https://github.com/user-attachments/assets/3ce33ca6-ca51-4d06-9213-d61789ba7952)
+```
+mv ~/.config/nvim ~/.config/nvim_OLD
+git clone https://github.com/1h3j/dot-nvim.git ~/.config/nvim
+```
+
+## Other Dotfiles
+
+I will create a repository at https://github.com/1h3j/dotfiles soon! It should have everything in it to make it easier to just clone everything if you wanted to! I will still be maintaining these repos and will just add these to the dotfiles repo as a submodule to make it much easier to manage. 
+
+## Gallery
+<img width="1256" height="966" alt="image" src="https://github.com/user-attachments/assets/4df93b2b-db15-41aa-82f2-fb2b8c89e01d" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0e85cd74-54d5-4989-80b9-1581713c7bff" />
