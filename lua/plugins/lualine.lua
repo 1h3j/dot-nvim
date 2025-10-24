@@ -39,8 +39,8 @@ return {
 		options = {
 			icons_enabled = true,
 			theme = theme,
-			section_separators = { left = '', right = '' },
-			component_separators = { left = '', right = '' },
+			section_separators = { left = '', right = '' },
+			component_separators = { left = '', right = '' },
 			disabled_filetypes = {
 				statusline = {},
 				winbar = {},
@@ -55,17 +55,17 @@ return {
 			}
 		},
 		sections = {
-			lualine_a = {{'mode', separator = {left = '      ', right = ''}}},
+			lualine_a = {{'mode', separator = {left = ' ', right = ''}}},
 			lualine_b = {'branch'},
       lualine_c = {'diff',{
           function()
             local filename = vim.fn.expand('%:t')
-            local icon, _ = devicons.get_icon(filename) 
+            local icon, _ = devicons.get_icon(filename)
             return '  %=  '.. icon .. '  ' .. filename ..' ' end
         }},
 			lualine_x = {{function() return ' ' end}, noice.api.status.command.get, 'diagnostics'},
 			lualine_y = {'progress'},
-			lualine_z = {{'location', separator = {right = '      ', left = '', left_padding = 2}}} },
+			lualine_z = {{'location', separator = {right = ' ', left = '', left_padding = 2}}} },
 		inactive_sections = {
 			lualine_a = {},
 			lualine_b = {},

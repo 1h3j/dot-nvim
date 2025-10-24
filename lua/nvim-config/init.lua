@@ -1,4 +1,7 @@
-require("nvim-config.neovide")
+if vim.g.neovide then
+  require("nvim-config.neovide")
+end
+
 require("nvim-config.options")
 require("nvim-config.remap")
 require("nvim-config.lazy")

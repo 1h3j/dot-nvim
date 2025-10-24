@@ -5,5 +5,6 @@ return {
     vim.lsp.enable('clangd')
     vim.lsp.enable('pyright')
     vim.lsp.enable('qmlls')
+    vim.lsp.enable('mesonlsp')
   end
 }
