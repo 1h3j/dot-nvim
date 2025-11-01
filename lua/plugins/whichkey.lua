@@ -18,9 +18,9 @@ return {
     local wk = require("which-key")
     wk.add({
       {"<Leader>r", desc = "Rename usages"},
-      {"<Leader>u", desc = "Toggle UndoTree"},
       {"<Leader>d", desc = "Open Diagnostic"},
-      {"<Leader>D", desc = "Jump to diagnostic"},
+      {"<Leader>e", desc = "Toggle Neotree"},
+      {"<Leader>a", desc = "Toggle Aerial"},
     })
   end,
 

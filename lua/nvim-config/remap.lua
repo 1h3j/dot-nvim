@@ -14,7 +14,9 @@ vim.keymap.set("n", "0", "g0")
 vim.keymap.set("n", "^", "g^")
 vim.keymap.set("n", "$", "g$")
 
-vim.keymap.set("n", "<Leader>u", function() vim.cmd"UndotreeToggle" end)
+-- Leader Keys
 vim.keymap.set("n", "<Leader>e", function() vim.cmd"Neotree toggle" end)
 
 vim.keymap.set("n", "<Leader>r", vim.lsp.buf.rename)
+
+vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
