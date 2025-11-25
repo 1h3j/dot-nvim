@@ -37,21 +37,3 @@ vim.api.nvim_create_autocmd("InsertLeave", {
     vim.g.neovide_cursor_vfx_mode = {"wireframe"}
   end,
 })
-
--- Desat Color Scheme -- 
--- vim.g.terminal_color_0 =  "#000000"
--- vim.g.terminal_color_8 =  "#454545"
--- vim.g.terminal_color_1 =  "#a54949"
--- vim.g.terminal_color_9 =  "#c45d5d"
--- vim.g.terminal_color_2 =  "#80be7f"
--- vim.g.terminal_color_10 = "#a1ed9f"
--- vim.g.terminal_color_3  = "#cac990"
--- vim.g.terminal_color_11 = "#fbfab4"
--- vim.g.terminal_color_4  = "#5071a7"
--- vim.g.terminal_color_12 = "#668dd1"
--- vim.g.terminal_color_5  = "#a857ac"
--- vim.g.terminal_color_13 = "#d26ed3"
--- vim.g.terminal_color_6  = "#85c3c3"
--- vim.g.terminal_color_14 = "#a7f2f2"
--- vim.g.terminal_color_7  = "#dddddd"
--- vim.g.terminal_color_15 = "#ffffff"
