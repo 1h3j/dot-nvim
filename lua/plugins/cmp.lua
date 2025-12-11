@@ -1,4 +1,6 @@
 return {'hrsh7th/nvim-cmp',       -- Completion plugin
+  lazy = false,
+
   dependencies = {
     'hrsh7th/cmp-nvim-lsp',   -- LSP source for nvim-cmp
     'hrsh7th/cmp-buffer',     -- Buffer source

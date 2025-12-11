@@ -4,6 +4,6 @@
     "nvim-lua/plenary.nvim",
     "nvim-treesitter/nvim-treesitter",
   },
-  lazy = false,
+  lazy = true,
   opts = {},
 }

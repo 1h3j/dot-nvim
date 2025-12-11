@@ -20,3 +20,17 @@ vim.keymap.set("n", "<Leader>e", function() vim.cmd"Neotree toggle" end)
 vim.keymap.set("n", "<Leader>r", vim.lsp.buf.rename)
 
 vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
+
+vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {
+  noremap = true,
+  silent = true,
+  desc = "LSP: Show Code Actions" -- A description helps for documentation
+})
+
+vim.keymap.set("n", "]e", function()
+  vim.lsp.diagnostic.goto_next({ severity = vim.diagnostic.severity.ERROR })
+end, { desc = "Next error" })
+
+vim.keymap.set("n", "[e", function()
+  vim.lsp.diagnostic.goto_prev({ severity = vim.diagnostic.severity.ERROR })
+end, { desc = "Previous error" })
